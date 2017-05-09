@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="nl">
-
+<!--TODO: maak development/production omgeving-->
 
 <head>
     <!-- bootstrap -->
