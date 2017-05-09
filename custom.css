@@ -1,0 +1,123 @@
+.EApanel {
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+.navbar-default {
+  background-color: #fff1c9;
+  border-color: #e7e7e7;
+}
+.navbar-contents {
+  padding-top:10px;
+}
+
+.new-ad-input{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	
+}
+.date-input{
+	margin-left: 1em;
+}
+.input-group .input-group-addon + .form-control
+{
+    border-left:none;
+}
+
+.form-control-feedback {
+    top: 0;
+    right: -15px;
+}
+body {
+background-color: #f4f4f4;
+}
+
+textarea {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.img-responsive2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 60%;
+	height: auto;
+}
+.img-responsive {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 60%;
+	height: auto;
+}
+.logo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-inner {
+    background-color: #F6D155;
+    padding-top: 5px; /*Height of the image*/
+}
+
+/*----------------------------------------------*/
+/*css voor Bieder biedt op een veiling----------*/
+/*----------------------------------------------*/
+
+.mini_image img{
+	width: 100px;
+	height: 100px;
+	display: inline;
+}
+
+.image img{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.preview {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column; }
+@media screen and (max-width: 996px) {
+	.preview {
+		margin-bottom: 20px; } }
+
+.preview-pic {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1; }
+
+.preview-thumbnail.nav-tabs {
+	border: none;
+	margin-top: 15px; }
+.preview-thumbnail.nav-tabs li {
+	width: 23%;
+	margin-right: 2.5%; }
+.preview-thumbnail.nav-tabs li img {
+	max-width: 100%;
+	display: block; }
+.preview-thumbnail.nav-tabs li a {
+	padding: 0;
+	margin: 0; }
+.preview-thumbnail.nav-tabs li:last-of-type {
+	margin-right: 0; }
+
+.tab-content {
+	overflow: hidden; }
+.tab-content img {
+	width: 100%;
+	-webkit-animation-name: opacity;
+	animation-name: opacity;
+	-webkit-animation-duration: .3s;
+	animation-duration: .3s; }
+
+.product-pictures {
+	margin-bottom: 20px;
+}

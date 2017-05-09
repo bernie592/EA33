@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <title>Eenmaal, Andermaal, verkocht!</title>
+
+    <!-- css -->
+    <link href="custom.css" rel="stylesheet">
+
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-navbar">
+
+<!-- Navigation -->
+<div id="navigation">
+	<nav class="navbar navbar-default" role="navigation">
+		<nav class="navbar-inner">
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1">
+				<a class="img-responsive2" href="index.php">
+                        <img class="logo" src="img/logoresized.png" alt="EenmaalAndermaal" width="80%" height="80%" >
+                </a>
+				</div>
+				<div class="col-sm-11">
+					<div class="navbar-contents">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+								<i class="fa fa-bars"></i>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav navbar-left">
+								<li><a href="#about">Veilig handelen</a></li>
+								<li><a href="#service">Hulp bij verkoop</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a>[accountnaam]</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mijn account
+									<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Berichten</a></li>
+										<li><a href="#">Mijn advertenties</a></li>
+										<li><a href="#">Favorieten</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Uitloggen</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<!-- Section -->
+<div class="EApanel">
+    <div class="container">
+        <div class="row">
+            <div class="span8 offset2">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Nieuw advertentie</h2>
+                    </div>
+                    <div class="panel-body">
+                        <label for="category">Categorie</label>
+                        <div class="new-ad-input">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" placeholder="Categorie toevoegen">
+                                        <option>Spelcomputers | Playstation 4</option>
+                                        <option>Spelcomputers | Xbox One</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-ad-input">
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <fieldset disabled>
+                                        <div class="form-group">
+                                            <select id="category" class="form-control">
+                                                <option>Tot 2 categorieën gratis</option>
+                                            </select>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="button" class="btn btn-outline-secondary">Categorie toevoegen</button>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+
+                        <div class="new-ad-input">
+                            <label for="title" class="col-2 col-form-label">Titel*</label>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <input class="form-control" type="text" placeholder="Voer een titel in.."
+                                           id="title">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="new-ad-input">
+                            <div class="form-group">
+                                <label for="condition">Conditie*</label>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <select class="form-control" id="condition" width="1">
+                                            <option>Nieuw</option>
+                                            <option>Zo goed als nieuw</option>
+                                            <option>Gebruikt</option>
+                                            <option>Niet van toepassing</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="new-ad-input">
+                            <label for="minimumbid">Minimumbod*</label>
+                            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                <div class="input-group-addon">€</div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <input type="text" class="form-control" id="minimumbid" placeholder="00,00">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="new-ad-input">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="exampleTextarea">Beschrijving*</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="date-input">
+                            <div class="form-group row">
+                                <label for="listing-start" class="col-2 col-form-label">Startdatum</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input class="form-control" type="datetime-local" value="" id="listing-start">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="date-input">
+                            <div class="form-group row">
+                                <label for="listing-end" class="col-2 col-form-label">Einddatum</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input class="form-control" type="datetime-local" value="" id="listing-end">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <small id="required" class="form-text text-muted">* Verplichte velden</small>
+                        <hr/>
+
+                        <div class="new-ad-input">
+                            <label for="add-image">Voeg een afbeelding toe</label>
+                            <div class="form-group">
+                                <input type="file" class="form-control-file" id="add-image" aria-describedby="fileHelp">
+                                <small id="fileHelp" class="form-text text-muted">Maximaal 128kb per afbeelding.</small>
+                            </div>
+                        </div>
+                        <hr/>
+
+                        <label for="terms-of-service">Algemene voorwaarden</label>
+                        <p>Door het onderstaande aankruisvakje aan te klikken, ga je akkoord met de <a href="#">algemene
+                                gebruiksvoorwaarden van EenmaalAndermaal</a> en neem je de volledige
+                            verantwoordelijkheid voor de inhoud van de aanbieding en het aangeboden object.</p>
+                        <div class="new-ad-input">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="" id="terms-of-service">Ik ga akkoord</label>
+                            </div>
+                        </div>
+                        <div class="new-ad-input">
+                            <button type="button" class="btn btn-primary">Advertentie plaatsen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
